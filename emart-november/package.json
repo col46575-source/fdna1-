@@ -1,0 +1,12 @@
+{
+  "name": "emart-november-promotion",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "이마트 고래잇 알뜰한 11월 장보기 프로모션 시안",
+  "scripts": {
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check dist/app.mjs && node --check dist/campaign.mjs && node --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=20" }
+}
